@@ -1,0 +1,117 @@
+{
+  "name": "Address",
+  "fields": [
+    {
+      "fieldName": "countryCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "country",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "cityCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "city",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "districtCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "district",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "countyCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "county",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "neighborhoodCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "neighborhood",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "shipmentCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "shipment",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "villageCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "village",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "streetCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "street",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "buildingCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "buildingNumber",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "building",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "buildingFree",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "independentPartsCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "independentParts",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "independentPartsFree",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "postalCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "statusId",
+      "fieldType": "Long"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20210221003202",
+  "entityTableName": "address",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

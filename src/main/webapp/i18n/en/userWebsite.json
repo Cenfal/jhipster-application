@@ -1,0 +1,27 @@
+{
+  "jhipsterApplicationApp": {
+    "userWebsite": {
+      "home": {
+        "title": "User Websites",
+        "createLabel": "Create a new User Website",
+        "createOrEditLabel": "Create or edit a User Website",
+        "notFound": "No User Websites found"
+      },
+      "created": "A new User Website is created with identifier {{ param }}",
+      "updated": "A User Website is updated with identifier {{ param }}",
+      "deleted": "A User Website is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete User Website {{ id }}?"
+      },
+      "detail": {
+        "title": "User Website"
+      },
+      "code": "Code",
+      "name": "Name",
+      "surname": "Surname",
+      "formattedName": "Formatted Name",
+      "userName": "User Name",
+      "statusId": "Status Id"
+    }
+  }
+}

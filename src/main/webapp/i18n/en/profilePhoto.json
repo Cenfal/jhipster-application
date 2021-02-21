@@ -1,0 +1,24 @@
+{
+  "jhipsterApplicationApp": {
+    "profilePhoto": {
+      "home": {
+        "title": "Profile Photos",
+        "createLabel": "Create a new Profile Photo",
+        "createOrEditLabel": "Create or edit a Profile Photo",
+        "notFound": "No Profile Photos found"
+      },
+      "created": "A new Profile Photo is created with identifier {{ param }}",
+      "updated": "A Profile Photo is updated with identifier {{ param }}",
+      "deleted": "A Profile Photo is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Profile Photo {{ id }}?"
+      },
+      "detail": {
+        "title": "Profile Photo"
+      },
+      "userId": "User Id",
+      "path": "Path",
+      "statusId": "Status Id"
+    }
+  }
+}

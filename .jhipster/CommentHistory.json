@@ -1,0 +1,25 @@
+{
+  "name": "CommentHistory",
+  "fields": [
+    {
+      "fieldName": "commentId",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "updateTime",
+      "fieldType": "Long"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20210221003002",
+  "entityTableName": "comment_history",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

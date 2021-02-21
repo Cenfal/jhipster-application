@@ -29,6 +29,32 @@ import ConfigurationService from '@/admin/configuration/configuration.service';
 
 /* tslint:disable */
 
+import UserWebsiteService from '@/entities/user-website/user-website.service';
+import MainService from '@/entities/main/main.service';
+import StatusService from '@/entities/status/status.service';
+import ProfilePhotoService from '@/entities/profile-photo/profile-photo.service';
+import ImageService from '@/entities/image/image.service';
+import ImageTypeService from '@/entities/image-type/image-type.service';
+import TopicService from '@/entities/topic/topic.service';
+import ArticleTopicService from '@/entities/article-topic/article-topic.service';
+import ContactService from '@/entities/contact/contact.service';
+import ArticleService from '@/entities/article/article.service';
+import ArticleLanguageService from '@/entities/article-language/article-language.service';
+import LanguageService from '@/entities/language/language.service';
+import TagService from '@/entities/tag/tag.service';
+import ArticleTagService from '@/entities/article-tag/article-tag.service';
+import ArticleHistoryService from '@/entities/article-history/article-history.service';
+import CommentHistoryService from '@/entities/comment-history/comment-history.service';
+import CommentService from '@/entities/comment/comment.service';
+import AddressService from '@/entities/address/address.service';
+import RegionService from '@/entities/region/region.service';
+import CountryService from '@/entities/country/country.service';
+import LocationService from '@/entities/location/location.service';
+import DepartmentService from '@/entities/department/department.service';
+import TaskService from '@/entities/task/task.service';
+import EmployeeService from '@/entities/employee/employee.service';
+import JobService from '@/entities/job/job.service';
+import JobHistoryService from '@/entities/job-history/job-history.service';
 // jhipster-needle-add-entity-service-to-main-import - JHipster will import entities services here
 
 /* tslint:enable */
@@ -91,6 +117,32 @@ new Vue({
     metricsService: () => new MetricsService(),
     alertService: () => alertService,
     translationService: () => translationService,
+    userWebsiteService: () => new UserWebsiteService(),
+    mainService: () => new MainService(),
+    statusService: () => new StatusService(),
+    profilePhotoService: () => new ProfilePhotoService(),
+    imageService: () => new ImageService(),
+    imageTypeService: () => new ImageTypeService(),
+    topicService: () => new TopicService(),
+    articleTopicService: () => new ArticleTopicService(),
+    contactService: () => new ContactService(),
+    articleService: () => new ArticleService(),
+    articleLanguageService: () => new ArticleLanguageService(),
+    languageService: () => new LanguageService(),
+    tagService: () => new TagService(),
+    articleTagService: () => new ArticleTagService(),
+    articleHistoryService: () => new ArticleHistoryService(),
+    commentHistoryService: () => new CommentHistoryService(),
+    commentService: () => new CommentService(),
+    addressService: () => new AddressService(),
+    regionService: () => new RegionService(),
+    countryService: () => new CountryService(),
+    locationService: () => new LocationService(),
+    departmentService: () => new DepartmentService(),
+    taskService: () => new TaskService(),
+    employeeService: () => new EmployeeService(),
+    jobService: () => new JobService(),
+    jobHistoryService: () => new JobHistoryService(),
     // jhipster-needle-add-entity-service-to-main - JHipster will import entities services here
     accountService: () => accountService,
   },

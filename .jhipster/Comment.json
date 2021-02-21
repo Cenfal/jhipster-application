@@ -1,0 +1,33 @@
+{
+  "name": "Comment",
+  "fields": [
+    {
+      "fieldName": "comment",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "userID",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "articleId",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "statusId",
+      "fieldType": "Long"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20210221003102",
+  "entityTableName": "comment",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

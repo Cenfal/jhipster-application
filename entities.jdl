@@ -1,0 +1,263 @@
+entity UserWebsite {
+	id UUID,
+    code Long,
+    name String,
+    surname String,
+    formattedName String,
+    userName String,
+statusId Long
+}
+entity Main{
+    createDate LocalDate,
+    updateDate LocalDate,
+    endDate LocalDate,
+    createdBy String,
+    updatedBy String,
+}
+entity Status{
+    id Long,
+    value String
+}
+entity ProfilePhoto{
+    id UUID,
+    userId UUID,
+    path String,statusId Long
+
+}
+entity Image{
+    id UUID,
+    articleId String,
+    path String,
+    imageType Long,
+    statusId Long
+
+}
+entity ImageType{
+    id UUID,
+    typeId Long,
+    type String,
+    statusId Long
+
+}
+entity Topic{
+    id Long,
+    name String,
+    statusId Long
+
+}
+entity ArticleTopic{
+id UUID,
+articleId UUID,
+topicId Long
+}
+entity Contact{
+    id UUID,
+    userId UUID,
+    mail String,
+    phone String,
+    preferred Boolean,
+    addressId UUID,
+    statusId Long
+
+}
+entity Article{
+	id UUID,
+    code Long
+    title String,
+    text String,
+    userId UUID,
+    statusId Long
+
+}
+entity ArticleLanguage{
+    articleId UUID,
+    languageId Long
+}
+entity Language{
+    id Long,
+    language String
+}
+entity Tag{
+    id Long,
+    tag String
+}
+entity ArticleTag{
+    articleId UUID,
+    tagId Long
+}
+entity ArticleHistory{
+    id UUID,
+    articleId UUID,
+    updateTime Long
+}
+entity CommentHistory{
+    id UUID,
+    commentId UUID,
+    updateTime Long
+}
+entity Comment{
+    id UUID,
+    comment String,
+    userID UUID,
+    articleId UUID,
+    statusId Long
+
+}
+entity Address{
+    id UUID,
+    countryCode String,
+    country String,
+    cityCode String,
+    city String,
+    districtCode String,
+    district String,
+    countyCode String,
+    county String,
+    neighborhoodCode String,
+    neighborhood String,
+    shipmentCode String,
+    shipment String,
+    villageCode String,
+    village String,
+    streetCode String,
+    street String,
+    buildingCode String,
+    buildingNumber String,
+    building String,
+    buildingFree String,
+    independentPartsCode String,
+    independentParts String,
+    independentPartsFree String,
+    postalCode String,
+    statusId Long
+
+}
+entity Region {
+	regionName String
+}
+
+entity Country {
+	countryName String
+}
+
+// an ignored comment
+/** not an ignored comment */
+entity Location {
+	streetAddress String,
+	postalCode String,
+	city String,
+	stateProvince String
+}
+
+entity Department {
+	departmentName String required
+}
+/**
+ * Task entity.
+ * @author The JHipster team.
+ */
+entity Task {
+	title String,
+	description String
+}
+
+/**
+ * The Employee entity.
+ */
+entity Employee {
+	/**
+	* The firstname attribute.
+	*/
+	firstName String,
+	lastName String,
+	email String,
+	phoneNumber String,
+	hireDate Instant,
+	salary Long,
+	commissionPct Long
+}
+
+entity Job {
+	jobTitle String,
+	minSalary Long,
+	maxSalary Long
+}
+
+entity JobHistory {
+	startDate Instant,
+	endDate Instant,
+	language Language
+}
+
+enum Language {
+    FRENCH, ENGLISH, SPANISH
+}
+
+relationship OneToOne {
+	Country{region} to Region
+}
+
+relationship OneToOne {
+	Location{country} to Country
+}
+
+relationship OneToOne {
+	Department{location} to Location
+}
+
+relationship ManyToMany {
+	Job{task(title)} to Task{job}
+}
+
+// defining multiple OneToMany relationships with comments
+relationship OneToMany {
+	Employee to Job{employee},
+	/**
+	* A relationship
+	*/
+	Department to
+	/**
+	* Another side of the same relationship
+	*/
+	Employee{department}
+}
+
+
+// defining multiple oneToOne relationships
+relationship OneToOne {
+	JobHistory{job} to Job,
+	JobHistory{department} to Department,
+	JobHistory{employee} to Employee,
+
+    Main{contact} to Contact,
+    Main{userWebsite} to UserWebsite,
+    Main{profilePhoto} to ProfilePhoto,
+    Main{image} to Image,
+    Main{articleHistory} to ArticleHistory,
+    Main{commentHistory} to CommentHistory,
+    Main{contact} to Contact,
+    Main{article} to Article,
+    Main{comment} to Comment,
+
+
+}
+
+// Set pagination options
+paginate JobHistory, Employee with infinite-scroll
+paginate Article with pagination
+paginate Image with pagination
+paginate Comment with pagination
+paginate Contact with pagination
+paginate UserWebsite with pagination
+paginate ProfilePhoto with pagination
+
+
+
+// Use Data Transfer Objects (DTO)
+dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl except Employee, Job
+
+// Set an angular suffix
+// angularSuffix * with mySuffix

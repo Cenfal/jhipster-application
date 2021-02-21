@@ -1,0 +1,34 @@
+{
+  "jhipsterApplicationApp": {
+    "main": {
+      "home": {
+        "title": "Mains",
+        "createLabel": "Create a new Main",
+        "createOrEditLabel": "Create or edit a Main",
+        "notFound": "No Mains found"
+      },
+      "created": "A new Main is created with identifier {{ param }}",
+      "updated": "A Main is updated with identifier {{ param }}",
+      "deleted": "A Main is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Main {{ id }}?"
+      },
+      "detail": {
+        "title": "Main"
+      },
+      "createDate": "Create Date",
+      "updateDate": "Update Date",
+      "endDate": "End Date",
+      "createdBy": "Created By",
+      "updatedBy": "Updated By",
+      "contact": "Contact",
+      "userWebsite": "User Website",
+      "profilePhoto": "Profile Photo",
+      "image": "Image",
+      "articleHistory": "Article History",
+      "commentHistory": "Comment History",
+      "article": "Article",
+      "comment": "Comment"
+    }
+  }
+}

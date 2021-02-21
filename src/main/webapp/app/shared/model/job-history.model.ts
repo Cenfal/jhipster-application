@@ -1,0 +1,27 @@
+export const enum Language {
+  FRENCH = 'FRENCH',
+  ENGLISH = 'ENGLISH',
+  SPANISH = 'SPANISH',
+}
+
+export interface IJobHistory {
+  id?: number;
+  startDate?: Date;
+  endDate?: Date;
+  language?: Language;
+  jobId?: number;
+  departmentId?: number;
+  employeeId?: number;
+}
+
+export class JobHistory implements IJobHistory {
+  constructor(
+    public id?: number,
+    public startDate?: Date,
+    public endDate?: Date,
+    public language?: Language,
+    public jobId?: number,
+    public departmentId?: number,
+    public employeeId?: number
+  ) {}
+}

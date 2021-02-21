@@ -1,0 +1,46 @@
+{
+  "jhipsterApplicationApp": {
+    "address": {
+      "home": {
+        "title": "Addresses",
+        "createLabel": "Create a new Address",
+        "createOrEditLabel": "Create or edit a Address",
+        "notFound": "No Addresses found"
+      },
+      "created": "A new Address is created with identifier {{ param }}",
+      "updated": "A Address is updated with identifier {{ param }}",
+      "deleted": "A Address is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Address {{ id }}?"
+      },
+      "detail": {
+        "title": "Address"
+      },
+      "countryCode": "Country Code",
+      "country": "Country",
+      "cityCode": "City Code",
+      "city": "City",
+      "districtCode": "District Code",
+      "district": "District",
+      "countyCode": "County Code",
+      "county": "County",
+      "neighborhoodCode": "Neighborhood Code",
+      "neighborhood": "Neighborhood",
+      "shipmentCode": "Shipment Code",
+      "shipment": "Shipment",
+      "villageCode": "Village Code",
+      "village": "Village",
+      "streetCode": "Street Code",
+      "street": "Street",
+      "buildingCode": "Building Code",
+      "buildingNumber": "Building Number",
+      "building": "Building",
+      "buildingFree": "Building Free",
+      "independentPartsCode": "Independent Parts Code",
+      "independentParts": "Independent Parts",
+      "independentPartsFree": "Independent Parts Free",
+      "postalCode": "Postal Code",
+      "statusId": "Status Id"
+    }
+  }
+}

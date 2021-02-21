@@ -51,6 +51,36 @@ public class CacheConfiguration {
             createCache(cm, com.mycompany.myapp.domain.User.class.getName());
             createCache(cm, com.mycompany.myapp.domain.Authority.class.getName());
             createCache(cm, com.mycompany.myapp.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.mycompany.myapp.domain.UserWebsite.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Main.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Status.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.ProfilePhoto.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Image.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.ImageType.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Topic.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.ArticleTopic.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Contact.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Article.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.ArticleLanguage.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Language.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Tag.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.ArticleTag.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.ArticleHistory.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.CommentHistory.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Comment.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Address.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Region.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Country.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Location.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Department.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Department.class.getName() + ".employees");
+            createCache(cm, com.mycompany.myapp.domain.Task.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Task.class.getName() + ".jobs");
+            createCache(cm, com.mycompany.myapp.domain.Employee.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Employee.class.getName() + ".jobs");
+            createCache(cm, com.mycompany.myapp.domain.Job.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Job.class.getName() + ".tasks");
+            createCache(cm, com.mycompany.myapp.domain.JobHistory.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

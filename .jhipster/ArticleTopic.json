@@ -1,0 +1,25 @@
+{
+  "name": "ArticleTopic",
+  "fields": [
+    {
+      "fieldName": "articleId",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "topicId",
+      "fieldType": "Long"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20210221002202",
+  "entityTableName": "article_topic",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

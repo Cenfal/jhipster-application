@@ -1,0 +1,23 @@
+{
+  "jhipsterApplicationApp": {
+    "commentHistory": {
+      "home": {
+        "title": "Comment Histories",
+        "createLabel": "Create a new Comment History",
+        "createOrEditLabel": "Create or edit a Comment History",
+        "notFound": "No Comment Histories found"
+      },
+      "created": "A new Comment History is created with identifier {{ param }}",
+      "updated": "A Comment History is updated with identifier {{ param }}",
+      "deleted": "A Comment History is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Comment History {{ id }}?"
+      },
+      "detail": {
+        "title": "Comment History"
+      },
+      "commentId": "Comment Id",
+      "updateTime": "Update Time"
+    }
+  }
+}

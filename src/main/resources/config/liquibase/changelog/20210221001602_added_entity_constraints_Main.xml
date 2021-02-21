@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.9.xsd">
+    <!--
+        Added the constraints for entity Main.
+    -->
+    <changeSet id="20210221001602-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="contact_id"
+                                 baseTableName="main"
+                                 constraintName="fk_main_contact_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="contact"/>
+
+        <addForeignKeyConstraint baseColumnNames="user_website_id"
+                                 baseTableName="main"
+                                 constraintName="fk_main_user_website_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="user_website"/>
+
+        <addForeignKeyConstraint baseColumnNames="profile_photo_id"
+                                 baseTableName="main"
+                                 constraintName="fk_main_profile_photo_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="profile_photo"/>
+
+        <addForeignKeyConstraint baseColumnNames="image_id"
+                                 baseTableName="main"
+                                 constraintName="fk_main_image_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="image"/>
+
+        <addForeignKeyConstraint baseColumnNames="article_history_id"
+                                 baseTableName="main"
+                                 constraintName="fk_main_article_history_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="article_history"/>
+
+        <addForeignKeyConstraint baseColumnNames="comment_history_id"
+                                 baseTableName="main"
+                                 constraintName="fk_main_comment_history_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="comment_history"/>
+
+        <addForeignKeyConstraint baseColumnNames="article_id"
+                                 baseTableName="main"
+                                 constraintName="fk_main_article_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="article"/>
+
+        <addForeignKeyConstraint baseColumnNames="comment_id"
+                                 baseTableName="main"
+                                 constraintName="fk_main_comment_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="comment"/>
+
+    </changeSet>
+</databaseChangeLog>

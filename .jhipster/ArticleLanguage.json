@@ -1,0 +1,25 @@
+{
+  "name": "ArticleLanguage",
+  "fields": [
+    {
+      "fieldName": "articleId",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "languageId",
+      "fieldType": "Long"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20210221002502",
+  "entityTableName": "article_language",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

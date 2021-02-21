@@ -32,6 +32,110 @@
                         <font-awesome-icon icon="th-list" />
                         <span v-text="$t('global.menu.entities.main')">Entities</span>
                     </span>
+                    <b-dropdown-item to="/user-website">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.userWebsite')">UserWebsite</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/main">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.main')">Main</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/status">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.status')">Status</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/profile-photo">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.profilePhoto')">ProfilePhoto</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/image">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.image')">Image</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/image-type">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.imageType')">ImageType</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/topic">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.topic')">Topic</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/article-topic">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.articleTopic')">ArticleTopic</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/contact">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.contact')">Contact</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/article">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.article')">Article</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/article-language">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.articleLanguage')">ArticleLanguage</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/language">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.language')">Language</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/tag">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.tag')">Tag</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/article-tag">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.articleTag')">ArticleTag</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/article-history">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.articleHistory')">ArticleHistory</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/comment-history">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.commentHistory')">CommentHistory</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/comment">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.comment')">Comment</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/address">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.address')">Address</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/region">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.region')">Region</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/country">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.country')">Country</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/location">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.location')">Location</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/department">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.department')">Department</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/task">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.task')">Task</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/employee">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.employee')">Employee</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/job">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.job')">Job</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/job-history">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.jobHistory')">JobHistory</span>
+                    </b-dropdown-item>
                     <!-- jhipster-needle-add-entity-to-menu - JHipster will add entities to the menu here -->
                 </b-nav-item-dropdown>
                 <b-nav-item-dropdown

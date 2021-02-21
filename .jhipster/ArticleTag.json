@@ -1,0 +1,25 @@
+{
+  "name": "ArticleTag",
+  "fields": [
+    {
+      "fieldName": "articleId",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "tagId",
+      "fieldType": "Long"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20210221002802",
+  "entityTableName": "article_tag",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

@@ -1,0 +1,24 @@
+{
+  "jhipsterApplicationApp": {
+    "imageType": {
+      "home": {
+        "title": "Image Types",
+        "createLabel": "Create a new Image Type",
+        "createOrEditLabel": "Create or edit a Image Type",
+        "notFound": "No Image Types found"
+      },
+      "created": "A new Image Type is created with identifier {{ param }}",
+      "updated": "A Image Type is updated with identifier {{ param }}",
+      "deleted": "A Image Type is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Image Type {{ id }}?"
+      },
+      "detail": {
+        "title": "Image Type"
+      },
+      "typeId": "Type Id",
+      "type": "Type",
+      "statusId": "Status Id"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "jhipsterApplicationApp": {
+    "articleTopic": {
+      "home": {
+        "title": "Article Topics",
+        "createLabel": "Create a new Article Topic",
+        "createOrEditLabel": "Create or edit a Article Topic",
+        "notFound": "No Article Topics found"
+      },
+      "created": "A new Article Topic is created with identifier {{ param }}",
+      "updated": "A Article Topic is updated with identifier {{ param }}",
+      "deleted": "A Article Topic is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Article Topic {{ id }}?"
+      },
+      "detail": {
+        "title": "Article Topic"
+      },
+      "articleId": "Article Id",
+      "topicId": "Topic Id"
+    }
+  }
+}

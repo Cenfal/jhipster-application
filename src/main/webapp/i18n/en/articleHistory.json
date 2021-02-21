@@ -1,0 +1,23 @@
+{
+  "jhipsterApplicationApp": {
+    "articleHistory": {
+      "home": {
+        "title": "Article Histories",
+        "createLabel": "Create a new Article History",
+        "createOrEditLabel": "Create or edit a Article History",
+        "notFound": "No Article Histories found"
+      },
+      "created": "A new Article History is created with identifier {{ param }}",
+      "updated": "A Article History is updated with identifier {{ param }}",
+      "deleted": "A Article History is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Article History {{ id }}?"
+      },
+      "detail": {
+        "title": "Article History"
+      },
+      "articleId": "Article Id",
+      "updateTime": "Update Time"
+    }
+  }
+}

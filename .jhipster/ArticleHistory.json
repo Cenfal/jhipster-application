@@ -1,0 +1,25 @@
+{
+  "name": "ArticleHistory",
+  "fields": [
+    {
+      "fieldName": "articleId",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "updateTime",
+      "fieldType": "Long"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20210221002902",
+  "entityTableName": "article_history",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}
