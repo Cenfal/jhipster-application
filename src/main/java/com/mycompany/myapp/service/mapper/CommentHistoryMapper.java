@@ -9,7 +9,7 @@ import org.mapstruct.*;
 /**
  * Mapper for the entity {@link CommentHistory} and its DTO {@link CommentHistoryDTO}.
  */
-@Mapper(componentModel = "spring", uses = {})
+@Mapper(componentModel = "spring" )
 public interface CommentHistoryMapper extends EntityMapper<CommentHistoryDTO, CommentHistory> {
 
 

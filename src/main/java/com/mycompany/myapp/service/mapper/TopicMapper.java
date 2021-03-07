@@ -9,7 +9,7 @@ import org.mapstruct.*;
 /**
  * Mapper for the entity {@link Topic} and its DTO {@link TopicDTO}.
  */
-@Mapper(componentModel = "spring", uses = {})
+@Mapper(componentModel = "spring" )
 public interface TopicMapper extends EntityMapper<TopicDTO, Topic> {
 
 

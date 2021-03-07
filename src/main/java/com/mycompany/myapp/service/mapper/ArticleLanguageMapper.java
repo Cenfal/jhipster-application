@@ -9,7 +9,7 @@ import org.mapstruct.*;
 /**
  * Mapper for the entity {@link ArticleLanguage} and its DTO {@link ArticleLanguageDTO}.
  */
-@Mapper(componentModel = "spring", uses = {})
+@Mapper(componentModel = "spring" )
 public interface ArticleLanguageMapper extends EntityMapper<ArticleLanguageDTO, ArticleLanguage> {
 
 

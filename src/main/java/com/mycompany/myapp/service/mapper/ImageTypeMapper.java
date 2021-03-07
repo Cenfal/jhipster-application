@@ -9,7 +9,7 @@ import org.mapstruct.*;
 /**
  * Mapper for the entity {@link ImageType} and its DTO {@link ImageTypeDTO}.
  */
-@Mapper(componentModel = "spring", uses = {})
+@Mapper(componentModel = "spring" )
 public interface ImageTypeMapper extends EntityMapper<ImageTypeDTO, ImageType> {
 
 

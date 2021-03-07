@@ -9,7 +9,7 @@ import org.mapstruct.*;
 /**
  * Mapper for the entity {@link ProfilePhoto} and its DTO {@link ProfilePhotoDTO}.
  */
-@Mapper(componentModel = "spring", uses = {})
+@Mapper(componentModel = "spring" )
 public interface ProfilePhotoMapper extends EntityMapper<ProfilePhotoDTO, ProfilePhoto> {
 
 
